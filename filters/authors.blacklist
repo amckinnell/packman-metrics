@@ -3,5 +3,6 @@ config/routes.rb
 db/schema.rb
 domain/common/permissions_config.rb
 Gemfile
+gulpfile.js
 test/blueprints.rb
 test/factories.rb
