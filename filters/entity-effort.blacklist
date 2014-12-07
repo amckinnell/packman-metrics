@@ -1,0 +1,13 @@
+.bowerrc
+.gitignore
+.hgignore
+.jshintignore
+.jshintrc
+db/migrate/
+db/schema.rb
+flat.profile
+Gemfile
+Guardfile
+lib/custom_output
+Procfile
+Rakefile
