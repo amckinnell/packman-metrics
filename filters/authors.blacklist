@@ -1,7 +1,7 @@
+config/locales/gettext
+config/routes.rb
 db/schema.rb
 domain/common/permissions_config.rb
-config/routes.rb
-test/blueprints.rb
 Gemfile
+test/blueprints.rb
 test/factories.rb
-config/locales/gettext

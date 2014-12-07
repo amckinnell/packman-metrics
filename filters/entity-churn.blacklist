@@ -1,11 +1,11 @@
-config/locales/gettext
-lib/custom_outputs
-vendor/assets
 client/desktop/vendor
 client/mobile/vendor
+config/locales/gettext
 db/schema.rb
+flat.profile
 gorgon.json
 gulpfile.js
+lib/custom_outputs
 output.txt
 test-results.xml
-flat.profile
+vendor/assets
