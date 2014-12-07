@@ -11,7 +11,7 @@ def generate_metrics(options)
   # Options
   analysis = "--analysis #{options.fetch(:analysis)}"
   rows = options.include?(:rows) ? "--rows #{options.fetch(:rows)}" : ''
-  output_filename = "out/#{options.fetch(:analysis)}.raw.txt"
+  output_filename = "out/#{options.fetch(:analysis)}.raw.csv"
 
   puts "Generating #{options.fetch(:analysis)} analysis..."
 

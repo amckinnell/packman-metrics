@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby -w
 
 def filter_metrics(options)
-  raw_metrics_filename = "out/#{options.fetch(:analysis)}.raw.txt"
+  raw_metrics_filename = "out/#{options.fetch(:analysis)}.raw.csv"
   filtered_metrics_filename = raw_metrics_filename.gsub('.raw.', '.filtered.')
 
   blacklist_filename = "filters/#{options.fetch(:analysis)}.blacklist"
@@ -23,6 +23,7 @@ def filter_metrics(options)
     end
   end
 end
+
 
 
 filter_metrics analysis: 'authors'
