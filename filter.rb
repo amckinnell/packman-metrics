@@ -9,7 +9,7 @@ def filter_metrics(options)
   blacklist = []
   File.open(blacklist_filename, 'r') do |f|
     f.each_line do |line|
-      blacklist << Regexp.quote(line.chomp)
+      blacklist << Regexp.quote(line.chomp) unless line.chomp.empty?
     end
   end
 
@@ -29,3 +29,4 @@ end
 filter_metrics analysis: 'authors'
 filter_metrics analysis: 'coupling'
 filter_metrics analysis: 'entity-churn'
+filter_metrics analysis: 'entity-effort'
