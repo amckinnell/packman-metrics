@@ -10,13 +10,14 @@ def generate_metrics(options)
 
   # Options
   analysis = "--analysis #{options.fetch(:analysis)}"
-  rows = "--rows #{options.fetch(:rows)}" if options.include? :rows
+  rows = options.include?(:rows) ? "--rows #{options.fetch(:rows)}" : ''
   output_filename = "out/#{options.fetch(:analysis)}.raw.txt"
 
   puts "Generating #{options.fetch(:analysis)} analysis..."
 
   system("java #{jvm_config} -jar #{code_maat_jar} #{standard_options} #{analysis} #{rows} > #{output_filename}")
 end
+
 
 
 generate_metrics analysis: 'summary'
