@@ -1,0 +1,7 @@
+db/schema.rb
+domain/common/permissions_config.rb
+config/routes.rb
+test/blueprints.rb
+Gemfile
+test/factories.rb
+config/locales/gettext

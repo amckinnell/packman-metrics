@@ -1,0 +1,11 @@
+config/locales/gettext
+lib/custom_outputs
+vendor/assets
+client/desktop/vendor
+client/mobile/vendor
+db/schema.rb
+gorgon.json
+gulpfile.js
+output.txt
+test-results.xml
+flat.profile
