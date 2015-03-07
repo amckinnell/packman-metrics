@@ -3,7 +3,7 @@
 def generate_metrics(options)
   # Configuration
   jvm_config = '-Djava.awt.headless=true -Xmx4g'
-  code_maat_jar = '/Users/alistair/dev/code-maat/target/code-maat-0.8.1-SNAPSHOT-standalone.jar'
+  code_maat_jar = '/Users/alistair/dev/code-maat/target/code-maat-0.8.5-standalone.jar'
 
   # Standard options
   standard_options = '--log logfile.log --version-control git'
